@@ -1,0 +1,16 @@
+﻿{
+  "Name": "09_DavidsJalapeno",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "EG31BfSkQUyA-5p1WOKFkA",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/EG31BfSkQUyA-5p1WOKFkA",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/ZPhsqq4ClUWaIiOcM9k1Vg",
+  "Created": "2023-11-16T01:27:30.0252974Z",
+  "Updated": "2023-11-19T18:44:11.4168721Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

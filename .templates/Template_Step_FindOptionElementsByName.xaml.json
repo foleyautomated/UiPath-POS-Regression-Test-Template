@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Template_Step_FindDesiredOptions",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "out_TODODesiredOptionElementsByName",
+      "DisplayName": "out_TODODesiredOptionElementsByName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ContinueOnError",
+      "DisplayName": "in_ContinueOnError",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_TimeoutSeconds",
+      "DisplayName": "in_TimeoutSeconds",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_TODODesiredOptions",
+      "DisplayName": "in_TODODesiredOptions",
+      "Category": null,
+      "Tooltip": "new string[]{\"Option1\", \"Option2\", \"Option3\"} \r\nTODO: For ease of use, set the default value to a string[] including ALL Available Options. \r\nTODO: Replace this help text with the actual available options",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

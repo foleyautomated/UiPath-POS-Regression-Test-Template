@@ -1,0 +1,17 @@
+﻿{
+  "Name": "OrderDisplayRegion",
+  "Description": "There are a few ways you can get the Display box, even though it's constantly different. One is to rely on negative offset values from another, more stable element. One is to do what I did here: Really low accuracy threshold on the image of the Order Display, and then a giant anchor of everything else.  ",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "p77CnxAo9ECJtxaQapf3iQ",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/p77CnxAo9ECJtxaQapf3iQ",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/R4rb4AIfNkSV0NilkWD09g",
+  "Created": "2023-11-16T01:27:30.1454632Z",
+  "Updated": "2023-11-16T01:27:30.1454632Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

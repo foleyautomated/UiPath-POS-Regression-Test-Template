@@ -1,0 +1,16 @@
+﻿{
+  "Name": "08_DavidsPineapples",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QDQwUd8TiUahdaOfJyUPOw",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/QDQwUd8TiUahdaOfJyUPOw",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/ZPhsqq4ClUWaIiOcM9k1Vg",
+  "Created": "2023-11-16T01:27:30.0931625Z",
+  "Updated": "2023-11-19T18:44:01.9733716Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "in_ScreenName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Snippets_Throwing.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TODOYourDictionaryHere&Sequence_1",
+        "TODOYourStringName&Sequence_1",
+        "TODOYourFileName&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Snippets_SpecialLogging.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "XamlFileNameWithoutExtension&Sequence_1",
+        "StartedAt&Sequence_1",
+        "TodoYourDictionaryHere&Sequence_1",
+        "TodoYourStringName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Template_DebugTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_FindOptionElementsByName.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MissingOptions&Sequence_10",
+        "TODODeleteThis&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TODODesiredOptions",
+        "out_TODODesiredOptionElementsByName",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_Get.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileNameWithoutExtension&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TodoThingGot",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Capability_Goto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Flowchart_2",
+        "StartedAt&Flowchart_2",
+        "StateElementsByName&Flowchart_2",
+        "StatesByName&Flowchart_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_Action.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Capability_KillAll.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TODOReplaceWithYourUniversalScreen&Sequence_4",
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "UniversalScreen&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_Select.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TODODesiredOptionElementsByName",
+        "in_TODODesiredOptions",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_IsState.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileNameWithoutExtension&Sequence_3",
+        "StartedAt&Sequence_3",
+        "CheckedElement&Sequence_3",
+        "CheckedScreen&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_StateElementsByName",
+        "io_StatesByName",
+        "out_TodoSameNameAsWorkflow",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_WaitUntil.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileNameWithoutExtension&Sequence_3",
+        "StartedAt&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TODOYourConditionHere",
+        "in_SecondsBetweenRetries",
+        "in_ContinueOnError",
+        "in_NumberOfRetries"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Finds/FindAllBuns.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "out_TodoRenameRegionItemsByName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_AllBunsByName",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Finds/FindAllCondiments.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_CondimentsByName",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Finds/FindAllPinPadKeys.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_KeysByName",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Gets/GetOrderDisplayText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "OrderDisplayRegion&Sequence_2",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_GetOrderDisplayText",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Selects/SelectBun.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AllBunsByName&Sequence_3",
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "SelectedItemElement&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_SelectedBun",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/States/IsClosed.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "CheckedScreen&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsClosed",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_State"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/States/IsOnDemoHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_8",
+        "StartedAt&Sequence_8",
+        "CheckedScreen&Sequence_8",
+        "CheckedElement&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnDemoHomeScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_State"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/States/IsOnDemoLoadingScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_8",
+        "StartedAt&Sequence_8",
+        "CheckedScreen&Sequence_8",
+        "CheckedElement&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnDemoLoadingScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_State"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/States/IsOnDemoPinPadScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_8",
+        "StartedAt&Sequence_8",
+        "CheckedScreen&Sequence_8",
+        "CheckedElement&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnDemoPinPadScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_State"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/ClickThroughDemoLogo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/EnterDemoPin.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/KillAllMsPaint.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_5",
+        "StartedAt&Sequence_5",
+        "UniversalScreen&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/OpenDemoHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "PathToPosDemoFile&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/OpenDemoLoadingScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "PathToPosDemoFile&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Steps/OpenDemoPinPadScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3",
+        "PathToPosDemoFile&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/Waits/WaitUntilAllCondimentsAreLoaded.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "CondimentsByName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ContinueOnError",
+        "in_SecondsBetweenRetries",
+        "out_AllCondimentsAreLoaded",
+        "in_NumberOfRetries"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/DetermineDemoState.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_State"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Demo/GotoReady/GotoDemoHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Flowchart_2",
+        "State&Flowchart_2",
+        "StartedAt&Flowchart_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ContinueOnError",
+        "in_Pin",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/DetermineMsPaintState.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileNameWithoutExtension&Sequence_1",
+        "TimeoutAt&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_StatesByName",
+        "io_ValidationElementsByStateName",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds",
+        "in_WaitUntilStateIsKnown"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Actions/OpenScreenByName.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CurrentValidationElement&Sequence_2",
+        "ValidationElementsByStateName&Sequence_2",
+        "Screen&Sequence_2",
+        "ScreenName&Sequence_2",
+        "PathToPosScreenPng&Sequence_2",
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ScreenName",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/GotoMsPaintHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StatesByName&Flowchart_2",
+        "XamlFileName&Flowchart_2",
+        "StartedAt&Flowchart_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "in_Pin"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Actions/ClickThroughDemoLogo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Actions/EnterDemoPin.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/KillAllMsPaint.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_5",
+        "StartedAt&Sequence_5",
+        "UniversalScreen&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Actions/OpenScreenByName_Debug.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_ScreenName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_ActionTimeout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/IsStates/IsOnHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileNameWithoutExtension&Sequence_3",
+        "StartedAt&Sequence_3",
+        "CheckedElement&Sequence_3",
+        "CheckedScreen&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnHomeScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "io_StateElementsByName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Step_State.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "ValidationElement&Sequence_2",
+        "CheckedScreen&Sequence_2",
+        "TODODeleteThisVariable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "out_TODOSameNameAsWorkflow",
+        "io_ValidationElementsByStateName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/States/IsOnHomeScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "ValidationElement&Sequence_2",
+        "CheckedScreen&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnHomeScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "io_ValidationElementsByStateName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template_Capability_DetermineState.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "TimeoutAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_StateElementsByName",
+        "io_StatesByName",
+        "in_WaitUntilStateIsKnown",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/States/IsOnPinPadScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "ValidationElement&Sequence_2",
+        "CheckedScreen&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnPinPadScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "io_ValidationElementsByStateName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/States/IsOnFloatingLogoScreen.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "ValidationElement&Sequence_2",
+        "CheckedScreen&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsOnFloatingLogoScreen",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "io_ValidationElementsByStateName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/States/IsClosed.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2",
+        "ValidationElement&Sequence_2",
+        "CheckedScreen&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_IsClosed",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "io_StatesByName",
+        "io_ValidationElementsByStateName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Waits/WaitUntilAllCondimentsAreLoaded.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CondimentElementsByName&Sequence_2",
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_NumberOfRetries",
+        "in_ContinueOnError",
+        "in_SecondsBetweenRetries",
+        "out_AllCondimentsAreLoaded"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Gets/GetOrderDisplayText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "OrderDisplayRegion&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TimeoutSeconds",
+        "in_ContinueOnError",
+        "out_GetOrderDisplayText"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Selects/SelectBun_Debug.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Bun"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Template_Meta_NotYetImplemented.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestingUtilities/GetRandomOptionsByCategory.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RandomOptions&Sequence_2",
+        "NextRandomOption&Sequence_3",
+        "Rand&Sequence_2",
+        "OptionsCount&Sequence_2",
+        "AllOptions&Sequence_2",
+        "XamlFileName&Sequence_2",
+        "StartedAt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_RandomOptions",
+        "in_DesiredNumberOfRandomOptions",
+        "in_AllowDuplicates",
+        "in_OptionCategory",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Finds/FindDesiredBuns.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_BunOptionElementsByName",
+        "in_Buns",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Selects/SelectBun.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DesiredBunOptions",
+        "out_BunOptionElementsByName",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Selects/SelectCondiments.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_3",
+        "StartedAt&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DesiredCondimentOptions",
+        "out_DesiredCondimentElementsByName",
+        "in_TimeoutSeconds",
+        "in_ContinueOnError"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Finds/FindDesiredCondiments.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "MissingOptions&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_DesiredCondimentElementsByName",
+        "in_DesiredCondimentOptions",
+        "in_ContinueOnError",
+        "in_TimeoutSeconds"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Template_DebugSpecific.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SelectedOptions&Sequence_1",
+        "AllOptions&Sequence_1",
+        "OptionCategory&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OptionCategory"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestingUtilities/CreateDynamicChecklistDialogue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "HtmlFormText&Sequence_1",
+        "TestingUtilityFolderName&Sequence_1",
+        "ResultJsonText&Sequence_1",
+        "ResultJO&Sequence_1",
+        "BaseHtmlUri&Sequence_1",
+        "DynamicHtmlUri&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_SelectedOptions",
+        "in_AllAvailableOptions"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestingUtilities/GetAllOptionsByCategory.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "OptionsJA&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "OptionsJsonText&Sequence_1",
+        "OptionsJsonFile&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_AllOptions",
+        "in_OptionCategory"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Selects/SelectCondiments_DebugSpecific.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DesiredCondimentOptions&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "OptionCategory&Sequence_1",
+        "AllOptions&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OptionCategory"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/_Template_DebugRandom.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RandomOptions&Sequence_1",
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_AllowDuplicates",
+        "in_OptionCategory"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "_Demo/GotoReady/Selects/SelectCondiments_DebugRandom.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "XamlFileName&Sequence_1",
+        "StartedAt&Sequence_1",
+        "RandomOptions&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DesiredNumberOfRandomOptions",
+        "in_OptionCategory",
+        "in_AllowDuplicates"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

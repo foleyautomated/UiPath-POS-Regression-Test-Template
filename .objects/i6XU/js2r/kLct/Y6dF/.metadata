@@ -1,0 +1,16 @@
+﻿{
+  "Name": "File",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Y6dFCjV1_kqEwYmZ2GQREw",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/Y6dFCjV1_kqEwYmZ2GQREw",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/kLctNo-aqEOEY6fP9qYJ5w",
+  "Created": "2023-11-19T00:58:24.8237183Z",
+  "Updated": "2023-11-19T00:59:13.65837Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "DisplayName": "FindAllBuns",
+  "Tooltip": "This Template is farily involved. Some Context: Creating giant workflows with chains of Check App States, embeded in sequence or in a Switch, is tedious--regardless of how useful these types of activities can be. \nSo, we want to create As few daisy-chained workflows, and we want them to remain performant under a varriety of circumstances.\nEnter, \"FindDesiredOptionElements\"; it uses an in_Argument of Options determines which of the check app states to activate, cutting back on time. This means:\n1. If i want to get a single Option Element, I just have to add a single Option, and my workflow will efficiently skip searching for all other options.\n2. If I want to get multiple OptionElements, I pass in multiple Options\n3. If I just want all the Options, I pass in nothing, and all CheckAppStates are activated. \n4. Once the desired OptionElements have been collected, the consuming Workflow can use them however it needs. \n\nTO USE THIS PATTERN:\n1. Delete 'TODODeleteThisVariable' and remove it fully from the workflow\n2. Add a new case for each Option. \n2. Copy the 'Check App State' Within'Switch - Find Next Desired Option' into each Case\n3. Add youre own OptionElement to each case from the Object Repository",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_ContinueOnError",
+      "DisplayName": "in_ContinueOnError",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_TimeoutSeconds",
+      "DisplayName": "in_TimeoutSeconds",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Buns",
+      "DisplayName": "in_Buns",
+      "Category": null,
+      "Tooltip": "new string[]{\"Option1\", \"Option2\", \"Option3\"} \nTODO: For ease of use, set the default value to a string[] including ALL Available Options. \nTODO: Replace this help text with the actual available options",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_BunOptionElementsByName",
+      "DisplayName": "out_BunOptionElementsByName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

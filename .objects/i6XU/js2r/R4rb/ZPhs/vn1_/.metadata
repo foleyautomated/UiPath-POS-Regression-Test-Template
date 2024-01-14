@@ -1,0 +1,16 @@
+﻿{
+  "Name": "06_DavidsBananaPeppers",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vn1_UmEzTEK5FKNh4lCzTw",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/vn1_UmEzTEK5FKNh4lCzTw",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/ZPhsqq4ClUWaIiOcM9k1Vg",
+  "Created": "2023-11-16T01:27:29.9391009Z",
+  "Updated": "2023-11-19T18:43:32.0432174Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

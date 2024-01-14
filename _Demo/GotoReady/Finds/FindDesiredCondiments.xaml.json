@@ -1,0 +1,57 @@
+{
+  "DisplayName": "FindAllCondiments",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_ContinueOnError",
+      "DisplayName": "in_ContinueOnError",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_TimeoutSeconds",
+      "DisplayName": "in_TimeoutSeconds",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_DesiredCondimentElementsByName",
+      "DisplayName": "out_DesiredCondimentElementsByName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_DesiredCondimentOptions",
+      "DisplayName": "in_DesiredCondimentOptions",
+      "Category": null,
+      "Tooltip": "new string[] {\r\n\"DavidsCheese\",\r\n\"DavidsKetchup\",\r\n\"DavidsRelish\",\r\n\"DavidsMustard\",\r\n\"DavidsBbq\",\r\n\"DavidsBananaPeppers\",\r\n\"DavidsPickledRedOnion\",\r\n\"DavidsPineapples\",\r\n\"DavidsJalapeno\",\r\n\"DavidsSpecialSauce\"\r\n}",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\OpenScreenByName_Options.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\SelectBun_Options.json",
+      "dataVariationType": "File"
+    }
+  ]
+}

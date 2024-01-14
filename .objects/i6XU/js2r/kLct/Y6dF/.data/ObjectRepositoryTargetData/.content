@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_hgc3AQUMkmQoTDTVnufnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="8, 31, 57, 25" CvTextArea="26, 37, 20, 11" CvTextArgument="File" CvType="Button" DesignTimeRectangle="8, 31, 56, 23" DesignTimeScaleFactor="1" FriendlyName="'File tab'" FullSelectorArgument="&lt;ctrl name='File tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='File tab' role='grid drop down button' automationid='' check:text='File tab' /&gt;" Guid="81e647f8-dc8e-4329-a6ad-30cea274866c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADwAAAAbCAYAAAAgVez8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADNSURBVFhH7ZUxDsIwDEW5BsfsyDE69QqcoQs7a9UF0pEFiREyGgxO1RZLDDiV5djSkxLrZ3itlWxeBUgpVa7wdnc0zekc3hQlfH9EFzaLC3MhS7gwF7JEZuEALT30qYZDR/0bVGMmQlMvz+ZhBeFfMkUIT/vLDO6p+kA9OVYf6Xaf+rxw1adMB82V+1j/oewP43peH3k5FApzeTmUCeMYp5t8mpdD36VVX2CgcYbx6ZIjs7A+XJgLWcKFuZAlXJgLWeJLGBvWmQnjxj4Rnh/WiduWOJ4OAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='mspaint.exe' cls='MSPaintApp' title='Untitled - Paint' /&gt;" SearchSteps="Selector, Image" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f58f69bb7c312a5c4e1c952e9cdd456c.png" xmlns="">0XN5E1amNqE-f8IOa5-ddRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

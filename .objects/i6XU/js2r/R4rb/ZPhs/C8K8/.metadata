@@ -1,0 +1,16 @@
+﻿{
+  "Name": "02_DavidsKetchup",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "C8K8aByKZ0unn3fJEA3Jfg",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/C8K8aByKZ0unn3fJEA3Jfg",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/ZPhsqq4ClUWaIiOcM9k1Vg",
+  "Created": "2023-11-16T01:27:30.0425713Z",
+  "Updated": "2023-11-19T18:42:28.919856Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Nums",
+  "Type": "Element",
+  "TaxonomyType": "Group",
+  "Id": "EiEg3vWCDE-wuFlNCgkuCw",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/EiEg3vWCDE-wuFlNCgkuCw",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/6jL-GyMYekisKyjv8AIU7A",
+  "Created": "2023-11-19T07:06:00.9160263Z",
+  "Updated": "2023-11-19T07:06:25.6797472Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

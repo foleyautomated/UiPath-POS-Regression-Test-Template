@@ -1,0 +1,150 @@
+{
+  "name": "Template.POS",
+  "projectId": "9fabef67-ebc4-4f49-a840-5f021209319a",
+  "description": "Starting Point for POS Automation",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "2.22.2",
+    "UiPath.Mail.Activities": "1.21.1",
+    "UiPath.System.Activities": "23.10.2",
+    "UiPath.Testing.Activities": "23.10.0",
+    "UiPath.UIAutomation.Activities": "23.10.3"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Capability_Goto.xaml"
+      },
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\_Template_DebugTestCase.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Capability_KillAll.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_Get.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_WaitUntil.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_Action.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_ActionTimeout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7f77a7aa-2b63-4467-b2dc-08904c8b1f50",
+        "dataVariationFilePath": ".variations\\OpenScreenByName_Options.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Demo\\GotoReady\\Actions\\OpenScreenByName_Debug.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_State.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Capability_DetermineState.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3097c58c-f929-4ff4-9497-a7afbbddb8f2",
+        "dataVariationFilePath": ".variations\\SelectBun_Options.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Demo\\GotoReady\\Selects\\SelectBun_Debug.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_FindOptionElementsByName.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\_Template_Meta_NotYetImplemented.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9d9e9410-c328-4a9c-8f2d-d5a266882bd6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Demo\\GotoReady\\Selects\\SelectCondiments_DebugRandom.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\Template_Step_Select.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "87996ee7-121d-4c7a-adde-7b00ae4f064c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Demo\\GotoReady\\Selects\\SelectCondiments_DebugSpecific.xaml"
+      },
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\_Template_DebugRandom.xaml"
+      },
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\_Template_DebugSpecific.xaml"
+      }
+    ],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "_Demo\\GotoReady\\CodeTheObjectRepo.cs",
+      "uniqueId": "a39ea73b-ee46-4653-a47c-3104b98ca6c3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

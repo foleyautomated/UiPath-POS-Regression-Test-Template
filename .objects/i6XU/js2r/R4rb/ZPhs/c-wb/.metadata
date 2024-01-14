@@ -1,0 +1,16 @@
+﻿{
+  "Name": "07_DavidsPickedRedOnion",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "c-wb8RGIrUOMofNu_ZUG5w",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/c-wb8RGIrUOMofNu_ZUG5w",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/ZPhsqq4ClUWaIiOcM9k1Vg",
+  "Created": "2023-11-16T01:27:30.0773402Z",
+  "Updated": "2023-11-19T18:43:47.123009Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UiPath KYC Solution</title>
+  </head>
+  <body>
+      <button onclick="SubmitValues()">Submit</button>
+      <br/>
+      <script type="text/javascript">
+        var in_desiredOptions = [
+  "DavidsCheese",
+  "DavidsKetchup",
+  "DavidsRelish",
+  "DavidsMustard",
+  "DavidsBbq",
+  "DavidsBananaPeppers",
+  "DavidsPickledRedOnion",
+  "DavidsPineapples",
+  "DavidsJalapeno",
+  "DavidsSpecialSauce"
+];
+        var container = document.body;
+        
+        in_desiredOptions.forEach(function(option)
+        {
+            var checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.name = option; // Set a common name for all checkboxes
+            checkbox.id = GetOptionId(option);
+            checkbox.value = option;
+        
+            // Create a label for the checkbox
+            var label = document.createElement('label');
+            label.appendChild(document.createTextNode(option));
+        
+            // Create a line break element
+            var lineBreak = document.createElement('br');
+        
+            // Append the checkbox, label, and line break to the container
+            container.appendChild(checkbox);
+            container.appendChild(label);
+            container.appendChild(lineBreak);
+        });
+
+        function GetOptionId(option)
+        {
+          return option + "-dynamic-checkbox"
+        }
+
+        function SubmitValues(){
+          var result = {};
+          console.log("Submitted..."); 
+          in_desiredOptions.forEach(function(option){
+               var optionId = GetOptionId(option);
+               console.log("Getting [" + option + "] with ID [" + optionId + "]");
+               result[option] = document.getElementById(optionId).checked;
+          });
+          console.log(result);
+          window.external.setResult(JSON.stringify(result));
+          return true;
+        }
+        
+  
+      </script>
+  </body>
+  </html>

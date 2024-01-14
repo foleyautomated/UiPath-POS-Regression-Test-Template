@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Logo",
+  "Type": "Element",
+  "TaxonomyType": "Image",
+  "Id": "_HmoIroHuEGTd7fUF9DXUw",
+  "Reference": "PkgkKyCF8UuI2e3EnwRcMg/_HmoIroHuEGTd7fUF9DXUw",
+  "ParentRef": "PkgkKyCF8UuI2e3EnwRcMg/BY6O1g_9N0W1qDCIEZPp9w",
+  "Created": "2023-11-16T01:27:47.5144754Z",
+  "Updated": "2023-11-18T18:37:06.8400504Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
